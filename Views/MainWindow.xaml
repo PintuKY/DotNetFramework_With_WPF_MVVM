@@ -8,8 +8,7 @@
         d:DesignHeight ="1080" d:DesignWidth="1920"
         WindowState="Maximized" WindowStyle="None" ResizeMode="CanResize" WindowStartupLocation="CenterScreen"  
         Focusable="True"
-        AllowsTransparency="True" Background="Transparent" StateChanged="Window_StateChanged" MinWidth="1280" MinHeight="720" Loaded="Window_Loaded" 
-        >
+        AllowsTransparency="True" Background="Transparent" StateChanged="Window_StateChanged" Loaded="Window_Loaded"  MinWidth="1280" MinHeight="720">
     <Window.Resources>
         <Style x:Key="MinimizeNewButtonStyle" BasedOn="{StaticResource WindowNewButtonStyle}" TargetType="Button">
             <Setter Property="Content">
@@ -72,7 +71,7 @@
                         <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Right" Grid.Column="2" Margin="0,0,5,5" Height="35">
                             <Button x:Name="MinimizeButtonControl" Width="30" Height="30" Click="MinimizeButton_Click"  Style="{StaticResource MinimizeNewButtonStyle}" Visibility="Visible"/>
                             <Button x:Name="MaximizeButtonControl" Width="30" Height="30" Click="MaximizeButton_Click" Style="{StaticResource MaximizeNewButtonStyle}"/>
-                            <Button x:Name="CloseButtonControl" Width="30" Height="30" Click="CloseButton_Click" Style="{StaticResource CloseNewButtonStyle}"/>
+                            <Button x:Name="CloseButtonControl"    Width="30" Height="30" Click="CloseButton_Click" Style="{StaticResource CloseNewButtonStyle}"/>
                         </StackPanel>
                     </Grid>
                 </Border>

@@ -5,6 +5,8 @@ D:\.net-wpf-c#\SELF-KBM-DESIGN\bin\Debug\net8.0-windows\SELF-KBM-DESIGN.dll
 D:\.net-wpf-c#\SELF-KBM-DESIGN\bin\Debug\net8.0-windows\SELF-KBM-DESIGN.pdb
 D:\.net-wpf-c#\SELF-KBM-DESIGN\bin\Debug\net8.0-windows\log4net.dll
 D:\.net-wpf-c#\SELF-KBM-DESIGN\obj\Debug\net8.0-windows\SELF-KBM-DESIGN.csproj.AssemblyReference.cache
+D:\.net-wpf-c#\SELF-KBM-DESIGN\obj\Debug\net8.0-windows\Views\Employee.g.cs
+D:\.net-wpf-c#\SELF-KBM-DESIGN\obj\Debug\net8.0-windows\Views\ForTestPage.g.cs
 D:\.net-wpf-c#\SELF-KBM-DESIGN\obj\Debug\net8.0-windows\Views\Login.g.cs
 D:\.net-wpf-c#\SELF-KBM-DESIGN\obj\Debug\net8.0-windows\Views\Logout.g.cs
 D:\.net-wpf-c#\SELF-KBM-DESIGN\obj\Debug\net8.0-windows\Views\MainWindow.g.cs
@@ -12,6 +14,8 @@ D:\.net-wpf-c#\SELF-KBM-DESIGN\obj\Debug\net8.0-windows\App.g.cs
 D:\.net-wpf-c#\SELF-KBM-DESIGN\obj\Debug\net8.0-windows\SELF-KBM-DESIGN_MarkupCompile.cache
 D:\.net-wpf-c#\SELF-KBM-DESIGN\obj\Debug\net8.0-windows\SELF-KBM-DESIGN_MarkupCompile.lref
 D:\.net-wpf-c#\SELF-KBM-DESIGN\obj\Debug\net8.0-windows\App.baml
+D:\.net-wpf-c#\SELF-KBM-DESIGN\obj\Debug\net8.0-windows\Views\Employee.baml
+D:\.net-wpf-c#\SELF-KBM-DESIGN\obj\Debug\net8.0-windows\Views\ForTestPage.baml
 D:\.net-wpf-c#\SELF-KBM-DESIGN\obj\Debug\net8.0-windows\Views\Login.baml
 D:\.net-wpf-c#\SELF-KBM-DESIGN\obj\Debug\net8.0-windows\Views\Logout.baml
 D:\.net-wpf-c#\SELF-KBM-DESIGN\obj\Debug\net8.0-windows\Views\MainWindow.baml
@@ -20,11 +24,10 @@ D:\.net-wpf-c#\SELF-KBM-DESIGN\obj\Debug\net8.0-windows\SELF-KBM-DESIGN.Generate
 D:\.net-wpf-c#\SELF-KBM-DESIGN\obj\Debug\net8.0-windows\SELF-KBM-DESIGN.AssemblyInfoInputs.cache
 D:\.net-wpf-c#\SELF-KBM-DESIGN\obj\Debug\net8.0-windows\SELF-KBM-DESIGN.AssemblyInfo.cs
 D:\.net-wpf-c#\SELF-KBM-DESIGN\obj\Debug\net8.0-windows\SELF-KBM-DESIGN.csproj.CoreCompileInputs.cache
+D:\.net-wpf-c#\SELF-KBM-DESIGN\obj\Debug\net8.0-windows\SELF-KBM-DESIGN.sourcelink.json
 D:\.net-wpf-c#\SELF-KBM-DESIGN\obj\Debug\net8.0-windows\SELF-KBM.C0B91F25.Up2Date
 D:\.net-wpf-c#\SELF-KBM-DESIGN\obj\Debug\net8.0-windows\SELF-KBM-DESIGN.dll
 D:\.net-wpf-c#\SELF-KBM-DESIGN\obj\Debug\net8.0-windows\refint\SELF-KBM-DESIGN.dll
 D:\.net-wpf-c#\SELF-KBM-DESIGN\obj\Debug\net8.0-windows\SELF-KBM-DESIGN.pdb
 D:\.net-wpf-c#\SELF-KBM-DESIGN\obj\Debug\net8.0-windows\SELF-KBM-DESIGN.genruntimeconfig.cache
 D:\.net-wpf-c#\SELF-KBM-DESIGN\obj\Debug\net8.0-windows\ref\SELF-KBM-DESIGN.dll
-D:\.net-wpf-c#\SELF-KBM-DESIGN\obj\Debug\net8.0-windows\Views\ForTestPage.g.cs
-D:\.net-wpf-c#\SELF-KBM-DESIGN\obj\Debug\net8.0-windows\Views\ForTestPage.baml

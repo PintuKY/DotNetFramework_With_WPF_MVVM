@@ -55,7 +55,6 @@
                         <CheckBox Content="Show the label" IsChecked="{Binding ShowFancyText, Mode=TwoWay}"/>
                     </StackPanel>
                 </Border>
-
             </Grid>
         </Border>
     </Grid>

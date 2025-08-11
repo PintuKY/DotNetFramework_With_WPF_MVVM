@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 D:\.net-wpf-c#\SELF-KBM-DESIGN\App.xaml
-4856135258
+5-1023495642
 
-8-1290325207
+91566244277
 1991107504932
-Views\ForTestPage.xaml;Views\Login.xaml;Views\Logout.xaml;Views\MainWindow.xaml;
+Views\Employee.xaml;Views\ForTestPage.xaml;Views\Login.xaml;Views\Logout.xaml;Views\MainWindow.xaml;
 
 False
 
