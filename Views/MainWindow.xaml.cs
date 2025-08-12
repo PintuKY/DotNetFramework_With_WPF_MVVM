@@ -37,8 +37,8 @@ namespace SELF_KBM_DESIGN.Views
             Height = SystemParameters.WorkArea.Height;
             Width = SystemParameters.WorkArea.Width;
             DataContext = this;
-           // LoadImagesFromFolder();
-           // StartSlider();
+           LoadImagesFromFolder();
+           StartSlider();
         }
 
 
@@ -231,7 +231,9 @@ namespace SELF_KBM_DESIGN.Views
         }
         private void MaximizeButton_Click(object sender, RoutedEventArgs e)
         {
-            var maximizeButton = sender as Button;
+            //MaximizeButtonControl
+               var maximizeButton= this.FindName("MaximizeButtonControl") as Button;
+            //var maximizeButton = sender as Button;
             var image = maximizeButton?.Content as Image;
 
             if (this.WindowState == WindowState.Maximized)
@@ -243,7 +245,7 @@ namespace SELF_KBM_DESIGN.Views
                 // Change the icon to the maximize icon when window is in normal state
                 if (image != null)
                 {
-                    image.Source = new BitmapImage(new Uri("pack://application:,,,/Res/iconRestoreDown.png"));
+                    image.Source = new BitmapImage(new Uri("pack://application:,,,/Res/iconRestoreDown.png", UriKind.Absolute));
                 }
             }
             else
@@ -255,7 +257,7 @@ namespace SELF_KBM_DESIGN.Views
                 // Change the icon to the restore down icon when window is maximized
                 if (image != null)
                 {
-                    image.Source = new BitmapImage(new Uri("pack://application:,,,/Res/iconMaximize.png"));
+                    image.Source = new BitmapImage(new Uri("pack://application:,,,/Res/iconMaximize.png", UriKind.Absolute));
                 }
             }
         }

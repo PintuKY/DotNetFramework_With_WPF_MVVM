@@ -13,7 +13,7 @@
         <Style x:Key="MinimizeNewButtonStyle" BasedOn="{StaticResource WindowNewButtonStyle}" TargetType="Button">
             <Setter Property="Content">
                 <Setter.Value>
-                    <Image Source="pack://application:,,,/Res/iconMinimize.png" Width="15" Height="15"/>
+                    <Image Source="/Res/iconMinimize.png" Width="15" Height="15"/>
                 </Setter.Value>
             </Setter>
         </Style>
@@ -21,7 +21,7 @@
         <Style x:Key="MaximizeNewButtonStyle" BasedOn="{StaticResource WindowNewButtonStyle}" TargetType="Button">
             <Setter Property="Content">
                 <Setter.Value>
-                    <Image Source="pack://application:,,,/Res/iconMaximize.png" Width="15" Height="15"/>
+                    <Image Source="/Res/iconMaximize.png" Width="15" Height="15"/>
                 </Setter.Value>
             </Setter>
         </Style>
@@ -29,7 +29,7 @@
         <Style x:Key="CloseNewButtonStyle" BasedOn="{StaticResource WindowNewButtonStyle}" TargetType="Button">
             <Setter Property="Content">
                 <Setter.Value>
-                    <Image Source="pack://application:,,,/Res/iconClose.png" Width="20" Height="20"/>
+                    <Image Source="/Res/iconClose.png" Width="20" Height="20"/>
                 </Setter.Value>
             </Setter>
         </Style>
@@ -67,7 +67,7 @@
                             <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
                         <!-- Logo -->
-                        <Image Source="pack://application:,,,/Res/FD-NewLogo.ico" Width="70" Height="40" Margin="10,0,0,10" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                        <Image Source="/Res/FD-NewLogo.ico" Width="70" Height="40" Margin="10,0,0,10" HorizontalAlignment="Left" VerticalAlignment="Center"/>
                         <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Right" Grid.Column="2" Margin="0,0,5,5" Height="35">
                             <Button x:Name="MinimizeButtonControl" Width="30" Height="30" Click="MinimizeButton_Click"  Style="{StaticResource MinimizeNewButtonStyle}" Visibility="Visible"/>
                             <Button x:Name="MaximizeButtonControl" Width="30" Height="30" Click="MaximizeButton_Click" Style="{StaticResource MaximizeNewButtonStyle}"/>
@@ -98,7 +98,7 @@
                                     <ColumnDefinition Width="28*"/>
                                 </Grid.ColumnDefinitions>
 
-                                <Image Source="pack://application:,,,/Res/GroupBanner.PNG"  Width="Auto" Height="Auto" Margin="79,0,26,10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                <Image Source="/Res/GroupBanner.PNG"  Width="Auto" Height="Auto" Margin="79,0,26,10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
                             </Grid>
                             <Grid Grid.Column="1" />

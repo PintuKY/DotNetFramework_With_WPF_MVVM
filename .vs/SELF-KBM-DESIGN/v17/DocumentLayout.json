@@ -1,0 +1,191 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|d:\\.net-wpf-c#\\self-kbm-design\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|solutionrelative:views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|d:\\.net-wpf-c#\\self-kbm-design\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|solutionrelative:views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|d:\\.net-wpf-c#\\self-kbm-design\\self-kbm-design.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|solutionrelative:self-kbm-design.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|d:\\.net-wpf-c#\\self-kbm-design\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|d:\\.net-wpf-c#\\self-kbm-design\\views\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|solutionrelative:views\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|d:\\.net-wpf-c#\\self-kbm-design\\views\\logout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|solutionrelative:views\\logout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|d:\\.net-wpf-c#\\self-kbm-design\\views\\employee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|solutionrelative:views\\employee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|d:\\.net-wpf-c#\\self-kbm-design\\views\\employee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|solutionrelative:views\\employee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|d:\\.net-wpf-c#\\self-kbm-design\\views\\fortestpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|solutionrelative:views\\fortestpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|d:\\.net-wpf-c#\\self-kbm-design\\views\\fortestpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|solutionrelative:views\\fortestpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|d:\\.net-wpf-c#\\self-kbm-design\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|solutionrelative:viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SELF-KBM-DESIGN.csproj",
+              "DocumentMoniker": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\SELF-KBM-DESIGN.csproj",
+              "RelativeDocumentMoniker": "SELF-KBM-DESIGN.csproj",
+              "ToolTip": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\SELF-KBM-DESIGN.csproj",
+              "RelativeToolTip": "SELF-KBM-DESIGN.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-11T18:31:40.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\Views\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\Views\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Views\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T08:54:17.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\MainWindow.xaml",
+              "ToolTip": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "Views\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-30T07:08:19.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Logout.xaml",
+              "DocumentMoniker": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\Views\\Logout.xaml",
+              "RelativeDocumentMoniker": "Views\\Logout.xaml",
+              "ToolTip": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\Views\\Logout.xaml",
+              "RelativeToolTip": "Views\\Logout.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-30T07:19:36.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\Views\\Login.xaml",
+              "RelativeDocumentMoniker": "Views\\Login.xaml",
+              "ToolTip": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\Views\\Login.xaml",
+              "RelativeToolTip": "Views\\Login.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-30T07:19:34.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Employee.xaml.cs",
+              "DocumentMoniker": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\Views\\Employee.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Employee.xaml.cs",
+              "ToolTip": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\Views\\Employee.xaml.cs",
+              "RelativeToolTip": "Views\\Employee.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T07:17:07.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Employee.xaml",
+              "DocumentMoniker": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\Views\\Employee.xaml",
+              "RelativeDocumentMoniker": "Views\\Employee.xaml",
+              "ToolTip": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\Views\\Employee.xaml",
+              "RelativeToolTip": "Views\\Employee.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-30T07:16:56.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-30T07:08:00.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MainViewModel.cs",
+              "ToolTip": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAwwCoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T07:59:36.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ForTestPage.xaml.cs",
+              "DocumentMoniker": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\Views\\ForTestPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\ForTestPage.xaml.cs",
+              "ToolTip": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\Views\\ForTestPage.xaml.cs",
+              "RelativeToolTip": "Views\\ForTestPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T07:53:35.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ForTestPage.xaml",
+              "DocumentMoniker": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\Views\\ForTestPage.xaml",
+              "RelativeDocumentMoniker": "Views\\ForTestPage.xaml",
+              "ToolTip": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\Views\\ForTestPage.xaml",
+              "RelativeToolTip": "Views\\ForTestPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-15T07:52:19.953Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

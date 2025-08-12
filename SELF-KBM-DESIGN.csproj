@@ -10,12 +10,52 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Res\FD-NewLogo.ico" />
+    <None Remove="Res\GroupBanner.png" />
+    <None Remove="Res\iconClose.png" />
+    <None Remove="Res\iconMaximize.png" />
+    <None Remove="Res\iconMinimize.png" />
+    <None Remove="Res\iconRestoreDown.png" />
+    <None Remove="Res\Slider\Slide_P_Plate.png" />
+    <None Remove="Res\Slider\Slide_Running.png" />
+    <None Remove="Res\Slider\Slide_Sitting.png" />
+    <None Remove="Res\Slider\Slide_Standing.png" />
+    <None Remove="Res\Slider\Slide_Walking.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Models\" />
     <Folder Include="Services\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="log4net" Version="3.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Res\FD-NewLogo.ico" />
+    <Resource Include="Res\GroupBanner.png" />
+    <Resource Include="Res\iconClose.png" />
+    <Resource Include="Res\iconMaximize.png" />
+    <Resource Include="Res\iconMinimize.png" />
+    <Resource Include="Res\iconRestoreDown.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Res\Slider\Slide_P_Plate.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Res\Slider\Slide_Running.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Res\Slider\Slide_Sitting.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Res\Slider\Slide_Standing.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Res\Slider\Slide_Walking.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
 </Project>
