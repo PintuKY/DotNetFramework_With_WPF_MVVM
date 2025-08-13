@@ -3,7 +3,8 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:SELF_KBM_DESIGN" xmlns:local1="clr-namespace:SELF_KBM_DESIGN.Views"
+        xmlns:local="clr-namespace:SELF_KBM_DESIGN.Views" 
+        xmlns:local1="clr-namespace:SELF_KBM_DESIGN.Views"
         mc:Ignorable="d"
         d:DesignHeight ="1080" d:DesignWidth="1920"
         WindowState="Maximized" WindowStyle="None" ResizeMode="CanResize" WindowStartupLocation="CenterScreen"  
@@ -35,7 +36,7 @@
         </Style>
 
         <!-- Style for Login Popup -->
-        <!--<Style x:Key="LoginPopupStyle" TargetType="local:Login">
+        <Style x:Key="LoginPopupStyle" TargetType="local:Login">
             <Style.Triggers>
                 <DataTrigger Binding="{Binding RelativeSource={RelativeSource AncestorType=Window}, Path=WindowState}" Value="Maximized">
                     <Setter Property="Width" Value="Auto"/>
@@ -49,7 +50,7 @@
                     <Setter Property="Margin" Value="0,0,50,50"/>
                 </DataTrigger>
             </Style.Triggers>
-        </Style>-->
+        </Style>
     </Window.Resources>
 
     <Grid >
@@ -150,10 +151,6 @@
                                         </DataTemplate>
                                     </ItemsControl.ItemTemplate>
                                 </ItemsControl>
-
-
-
-
                             </StackPanel>
 
                             <!-- Second column (empty) -->
@@ -170,7 +167,7 @@
 
                         </Grid.ColumnDefinitions>
                         <!--<local:Login x:Name="loginPopup" Visibility="Visible" HorizontalAlignment="Center" VerticalAlignment="Center" Height="500" Margin="632,27,-316,5" Width="500"  />-->
-                        <!--<local:Login x:Name="loginPopup" Style="{StaticResource LoginPopupStyle}" Visibility="Visible" HorizontalAlignment="Right" VerticalAlignment="Center" Grid.ColumnSpan="2" Margin="50,-56"/>-->
+                        <local:Login x:Name="loginPopup" Style="{StaticResource LoginPopupStyle}" Visibility="Visible" HorizontalAlignment="Right" VerticalAlignment="Center" Grid.ColumnSpan="2" Margin="50,-56"/>
                     </Grid>
 
 

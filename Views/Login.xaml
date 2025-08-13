@@ -5,8 +5,232 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:SELF_KBM_DESIGN.Views"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
-            
+              Width="500" Height="612"  KeyboardNavigation.TabNavigation="Cycle"
+ KeyboardNavigation.ControlTabNavigation="Cycle" TabIndex="-1" Focusable="True">
+    <UserControl.Resources>
+        <Style x:Key="NormalButtonStyle" TargetType="ButtonBase">
+            <Setter Property="Background" Value="#F7F7F7"/>
+            <Setter Property="Foreground" Value="#000000"/>
+            <Setter Property="FontFamily" Value="Poppins"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" CornerRadius="8" BorderThickness=".7">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="signtext_blockstyle" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="#000000"/>
+            <Setter Property="FontFamily" Value="Eras Bold ITC"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="DemiBold"/>
+            <Setter Property="Padding" Value="3"/>            
+        </Style>
+        <Style x:Key="signTextbox_style" TargetType="TextBox">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Foreground" Value="#808080"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderBrush" Value="#C0C0C0"/>
+            <Setter Property="FontFamily" Value="Eras Demi ITC"/>
+            <Setter Property="HorizontalAlignment" Value="Stretch"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="FontWeight" Value="Normal"/>
+            <Setter Property="Text" Value="Enter Email ID"/>
+            <Setter Property="Padding" Value="10 00"/>
+            <Setter Property="Height" Value="55"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border  CornerRadius="10" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}">
+                            <ScrollViewer x:Name="PART_ContentHost" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <!--signTextboxpassword_style-->
+        <Style x:Key="signTextboxpassword_style" TargetType="TextBox">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Foreground" Value="#808080"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderBrush" Value="#C0C0C0"/>
+            <Setter Property="FontFamily" Value="Eras Demi ITC"/>
+            <Setter Property="HorizontalAlignment" Value="Stretch"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="FontWeight" Value="Normal"/>
+            <Setter Property="Text" Value="Enter Password"/>
+            <Setter Property="Padding" Value="10 00"/>
+            <Setter Property="Height" Value="55"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border  CornerRadius="10" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}">
+                            <ScrollViewer x:Name="PART_ContentHost" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="RoundedPasswordBoxStyle" TargetType="PasswordBox">
+            <Setter Property="Height" Value="55"/>
+            <Setter Property="FontFamily" Value="Poppins"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderBrush" Value="#C0C0C0"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Padding" Value="10,0"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Top"/>
+            <Setter Property="Foreground" Value="#4673C2"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="PasswordBox">
+                        <Grid>
+                            <Border CornerRadius="10" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
+                                <Grid>
+                                    <ScrollViewer x:Name="PART_ContentHost" VerticalAlignment="Center"/>
+                                    <TextBlock Text="Enter Your Password" x:Name="txtPrompt" Margin="10"
+                                               Foreground="Gray" Visibility="Visible" VerticalAlignment="Center"/>
+                                </Grid>
+                            </Border>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter Property="Background" Value="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"/>
+                                <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"/>
+                            </Trigger>
+                            <Trigger Property="IsKeyboardFocused" Value="True">
+                                <Setter Property="Visibility" TargetName="txtPrompt" Value="Collapsed"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="forgotpassword_style" TargetType="Button">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="Foreground" Value="#000000"/>
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Width" Value="150"/>
+            <Setter Property="FontFamily" Value="Poppies"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontWeight" Value="DemiBold"/>
+            <Setter Property="BorderBrush" Value="White"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="HorizontalAlignment" Value="Right"/>
+            <Setter Property="Margin" Value="0 5 20 0"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="10" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Cursor" Value="Hand"/>
+                    <Setter Property="Background" Value="White"/>
+                    <Setter Property="Foreground" Value="Green"/>                    
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="SubmitButton_loginStyle" TargetType="Button">
+            <Setter Property="Background" Value="#273142"/>
+            <Setter Property="Foreground" Value="white"/>
+            <Setter Property="Height" Value="55"/>            
+            <Setter Property="FontFamily" Value="Poppies"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontWeight" Value="DemiBold"/>
+            <Setter Property="BorderBrush" Value="White"/>
+            <Setter Property="BorderThickness" Value="1"/>            
+            <Setter Property="Margin" Value="10 15 20 0"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="10" Background="{TemplateBinding Background}">
+                            <ContentPresenter 
+                    Content="{TemplateBinding Content}"
+                    ContentTemplate="{TemplateBinding ContentTemplate}"
+                    VerticalAlignment="Center" 
+                    HorizontalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+    <Grid KeyboardNavigation.TabNavigation="Local" Width="500">
+        <Border Background="White" CornerRadius="25" Width="500">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="15"
+                                  Direction="-90"
+                                  RenderingBias="Quality"
+                                  ShadowDepth="2"
+                                  Color="LightBlue"/>
+            </Border.Effect>
+            <StackPanel Orientation="Vertical" Margin="10 10 10 10">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Welcome To" VerticalAlignment="Top" FontFamily="Poppins"
+                               Margin="10 10 10 10" Padding="10 10 0 0" 
+                               Foreground="Black" FontSize="22" Height="44" Width="128"/>
+                    <TextBlock Text="FD+" FontSize="22" VerticalAlignment="Top" HorizontalAlignment="Left" Width="131" FontFamily="Poppins" Margin="0 10 10 10"
+                               Padding="03 10 10 10" Foreground="#0089ED" />
+                </StackPanel>
+                <TextBlock Text="Sign-In" Margin="10 0 0 0" Padding="10" FontFamily="Poppins" FontSize="35" 
+                           HorizontalAlignment="Left" Foreground="Black" Width="200" FontWeight="DemiBold"/>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10 10 0 0">
+                    <Button Content="Admin" Width="96" Height="55" Style="{StaticResource NormalButtonStyle}"/>
+                    <Button Content="Doctor" Width="96" Height="55" Margin="20 0 0 0" Style="{StaticResource NormalButtonStyle}"/>
+                    <Button Content="Expert"  Width="96" Height="55" Margin="20 0 0 0" Style="{StaticResource NormalButtonStyle}"/>
+                    <Button Content="FrontDesk"  Width="96" Height="55" Margin="20 0 0 0" Style="{StaticResource NormalButtonStyle}"/>
+                </StackPanel>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="31*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0">
+                        <TextBlock Text="Enter username or email address" Grid.ColumnSpan="2" Style="{StaticResource signtext_blockstyle}" Margin="5 18 0 0"/>
+                    </Grid>
+                    <Grid Grid.Row="1">
+                        <TextBox x:Name="username" MaxLength="30" Margin="10 18 10 15" Style="{StaticResource signTextbox_style}"/>
+                    </Grid>
+                    <Grid Grid.Row="2">
+                        <TextBlock Text="Enter Your Password" Margin="5 18 0 0" Style="{StaticResource signtext_blockstyle}"/>
+                    </Grid>
+                    <PasswordBox x:Name="txtPassword" Grid.Row="3" MaxLength="25" Style="{StaticResource RoundedPasswordBoxStyle}" Foreground="#4673C2"
+                                 BorderThickness="1 1 1 1" VerticalAlignment="Top" Margin="10 10 10 15" TabIndex="2" Grid.ColumnSpan="2"/>
+                    <Grid Grid.Row="3">
+                        <TextBox x:Name="userpassword"  BorderThickness="1,1,1,1" Visibility="Collapsed" TabIndex="2" VerticalAlignment="Top" Grid.ColumnSpan="2" MaxLength="30" Margin="10 18 10 15" Style="{StaticResource signTextboxpassword_style}"/>
+                    </Grid>
+                    <Button Grid.Column="1" Grid.Row="3" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0 0 20 10" TabIndex="3" BorderThickness="0" Background="Transparent">
+                        <Image x:Name="togglepasswordVisibility" HorizontalAlignment="Right" VerticalAlignment="Center" Height="20" Width="20" Stretch="Uniform"/>
+                    </Button>
+                    <Button Content="Forgot Password" Grid.Row="4" Style="{StaticResource forgotpassword_style}"/>
+                    <Button Content="Submit" Grid.Row="5" Style="{StaticResource SubmitButton_loginStyle}"/>
+                </Grid>
+            </StackPanel>
+        </Border>
     </Grid>
 </UserControl>

@@ -31,3 +31,4 @@ D:\.net-wpf-c#\SELF-KBM-DESIGN\obj\Debug\net8.0-windows\refint\SELF-KBM-DESIGN.d
 D:\.net-wpf-c#\SELF-KBM-DESIGN\obj\Debug\net8.0-windows\SELF-KBM-DESIGN.pdb
 D:\.net-wpf-c#\SELF-KBM-DESIGN\obj\Debug\net8.0-windows\SELF-KBM-DESIGN.genruntimeconfig.cache
 D:\.net-wpf-c#\SELF-KBM-DESIGN\obj\Debug\net8.0-windows\ref\SELF-KBM-DESIGN.dll
+D:\.net-wpf-c#\SELF-KBM-DESIGN\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
