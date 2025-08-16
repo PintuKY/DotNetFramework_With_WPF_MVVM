@@ -2,13 +2,16 @@
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Collections.Specialized;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Controls;
 
 namespace SELF_KBM_DESIGN.ViewModels
 {
-    class ItemControlViewModel
+    class ItemControlViewModel : INotifyPropertyChanged
     {
         public ObservableCollection<ItemControlModel> ItemsTemplateSourceDataList { get; set; }
 
@@ -25,6 +28,23 @@ namespace SELF_KBM_DESIGN.ViewModels
                 new ItemControlModel { Label = "Feedback", PropertyType = "Comments" }
             };
         }
+        private bool _isActive = false;
+        public bool IsActive
+        {
+            get { return _isActive; }
+            set
+            {
+                _isActive = value;
+                OnPropertyChanged(nameof(IsActive));
+            }
+        }
 
+       
+
+        public event PropertyChangedEventHandler PropertyChanged;
+        protected void OnPropertyChanged(string propertyName)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
     }
 }

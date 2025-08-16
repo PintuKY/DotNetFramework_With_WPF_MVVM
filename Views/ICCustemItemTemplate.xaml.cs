@@ -24,8 +24,10 @@ namespace SELF_KBM_DESIGN.Views
         public ICCustemItemTemplate()
         {
             InitializeComponent();
-            DataContext = new ItemControlViewModel();
-            //DataContext = new ListBoxViewModel();
+            //ItemControlViewModel dbc= new ItemControlViewModel();
+            //DataContext = dbc;
+            //ICMDPersonViewModel personViewModel = new ICMDPersonViewModel();
+            //DataContext = personViewModel;
             var vm = new ListBoxViewModel();
            var items = vm.iListBoxes;
             MyListBox.ItemsSource = items;

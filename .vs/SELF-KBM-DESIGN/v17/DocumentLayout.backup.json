@@ -3,36 +3,56 @@
   "WorkspaceRootPath": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|d:\\.net-wpf-c#\\self-kbm-design\\viewmodels\\triggerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|solutionrelative:viewmodels\\triggerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|d:\\.net-wpf-c#\\self-kbm-design\\views\\iccustemitemtemplate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|solutionrelative:views\\iccustemitemtemplate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|d:\\.net-wpf-c#\\self-kbm-design\\views\\iccustemitemtemplate.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|solutionrelative:views\\iccustemitemtemplate.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|d:\\.net-wpf-c#\\self-kbm-design\\template\\mylistboxtemplateselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|solutionrelative:template\\mylistboxtemplateselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|d:\\.net-wpf-c#\\self-kbm-design\\viewmodels\\listboxviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|solutionrelative:viewmodels\\listboxviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|d:\\.net-wpf-c#\\self-kbm-design\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|solutionrelative:views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|d:\\.net-wpf-c#\\self-kbm-design\\viewmodels\\icmdpersonviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|solutionrelative:viewmodels\\icmdpersonviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|d:\\.net-wpf-c#\\self-kbm-design\\viewmodels\\itemcontrolviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|solutionrelative:viewmodels\\itemcontrolviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|d:\\.net-wpf-c#\\self-kbm-design\\template\\itemcontrolpropertytemplateselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|solutionrelative:template\\itemcontrolpropertytemplateselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|d:\\.net-wpf-c#\\self-kbm-design\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|solutionrelative:views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|d:\\.net-wpf-c#\\self-kbm-design\\models\\icomdperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|solutionrelative:models\\icomdperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|d:\\.net-wpf-c#\\self-kbm-design\\views\\iccustemitemtemplate.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|solutionrelative:views\\iccustemitemtemplate.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|d:\\.net-wpf-c#\\self-kbm-design\\viewmodels\\listboxviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|solutionrelative:viewmodels\\listboxviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|d:\\.net-wpf-c#\\self-kbm-design\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|d:\\.net-wpf-c#\\self-kbm-design\\icommandf\\updater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|solutionrelative:icommandf\\updater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|d:\\.net-wpf-c#\\self-kbm-design\\template\\mylistboxtemplateselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|solutionrelative:template\\mylistboxtemplateselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|d:\\.net-wpf-c#\\self-kbm-design\\models\\listboxmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|solutionrelative:models\\listboxmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|d:\\.net-wpf-c#\\self-kbm-design\\template\\itemcontrolpropertytemplateselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|solutionrelative:template\\itemcontrolpropertytemplateselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D44DF05-8500-45C6-B020-2452AE361C89}|SELF-KBM-DESIGN.csproj|d:\\.net-wpf-c#\\self-kbm-design\\models\\itemcontrolmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,50 +82,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ListBoxViewModel.cs",
-              "DocumentMoniker": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\ViewModels\\ListBoxViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\ListBoxViewModel.cs",
-              "ToolTip": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\ViewModels\\ListBoxViewModel.cs",
-              "RelativeToolTip": "ViewModels\\ListBoxViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAASAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\Views\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\Views\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Views\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAewEAAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T05:06:22.105Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MyListBoxTemplateSelector.cs",
-              "DocumentMoniker": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\Template\\MyListBoxTemplateSelector.cs",
-              "RelativeDocumentMoniker": "Template\\MyListBoxTemplateSelector.cs",
-              "ToolTip": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\Template\\MyListBoxTemplateSelector.cs",
-              "RelativeToolTip": "Template\\MyListBoxTemplateSelector.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T04:59:59.11Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ICCustemItemTemplate.xaml.cs",
-              "DocumentMoniker": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\Views\\ICCustemItemTemplate.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\ICCustemItemTemplate.xaml.cs",
-              "ToolTip": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\Views\\ICCustemItemTemplate.xaml.cs",
-              "RelativeToolTip": "Views\\ICCustemItemTemplate.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T17:41:29.51Z",
+              "WhenOpened": "2025-07-30T08:54:17.971Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TriggerViewModel.cs",
+              "DocumentMoniker": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\ViewModels\\TriggerViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\TriggerViewModel.cs",
+              "ToolTip": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\ViewModels\\TriggerViewModel.cs",
+              "RelativeToolTip": "ViewModels\\TriggerViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T14:30:13.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ItemControlViewModel.cs",
+              "DocumentMoniker": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\ViewModels\\ItemControlViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ItemControlViewModel.cs",
+              "ToolTip": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\ViewModels\\ItemControlViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ItemControlViewModel.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAkwBIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T08:57:56.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IComdPerson.cs",
+              "DocumentMoniker": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\Models\\IComdPerson.cs",
+              "RelativeDocumentMoniker": "Models\\IComdPerson.cs",
+              "ToolTip": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\Models\\IComdPerson.cs",
+              "RelativeToolTip": "Models\\IComdPerson.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T08:08:42.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICMDPersonViewModel.cs",
+              "DocumentMoniker": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\ViewModels\\ICMDPersonViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ICMDPersonViewModel.cs",
+              "ToolTip": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\ViewModels\\ICMDPersonViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ICMDPersonViewModel.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T08:07:17.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ICCustemItemTemplate.xaml",
               "DocumentMoniker": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\Views\\ICCustemItemTemplate.xaml",
               "RelativeDocumentMoniker": "Views\\ICCustemItemTemplate.xaml",
@@ -117,46 +163,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\Views\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\Views\\MainWindow.xaml.cs",
-              "RelativeToolTip": "Views\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAArwEAAAAAZAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "Updater.cs",
+              "DocumentMoniker": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\ICommandf\\Updater.cs",
+              "RelativeDocumentMoniker": "ICommandf\\Updater.cs",
+              "ToolTip": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\ICommandf\\Updater.cs",
+              "RelativeToolTip": "ICommandf\\Updater.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T08:54:17.971Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ItemControlViewModel.cs",
-              "DocumentMoniker": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\ViewModels\\ItemControlViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\ItemControlViewModel.cs",
-              "ToolTip": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\ViewModels\\ItemControlViewModel.cs",
-              "RelativeToolTip": "ViewModels\\ItemControlViewModel.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T17:31:49.294Z",
+              "WhenOpened": "2025-08-16T08:13:28.439Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ItemControlPropertyTemplateSelector.cs",
-              "DocumentMoniker": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\Template\\ItemControlPropertyTemplateSelector.cs",
-              "RelativeDocumentMoniker": "Template\\ItemControlPropertyTemplateSelector.cs",
-              "ToolTip": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\Template\\ItemControlPropertyTemplateSelector.cs",
-              "RelativeToolTip": "Template\\ItemControlPropertyTemplateSelector.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAcAAAAAAAAAA==",
+              "Title": "ICCustemItemTemplate.xaml.cs",
+              "DocumentMoniker": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\Views\\ICCustemItemTemplate.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\ICCustemItemTemplate.xaml.cs",
+              "ToolTip": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\Views\\ICCustemItemTemplate.xaml.cs",
+              "RelativeToolTip": "Views\\ICCustemItemTemplate.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T17:39:10.611Z",
+              "WhenOpened": "2025-08-14T17:41:29.51Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "ListBoxViewModel.cs",
+              "DocumentMoniker": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\ViewModels\\ListBoxViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ListBoxViewModel.cs",
+              "ToolTip": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\ViewModels\\ListBoxViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ListBoxViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T05:06:22.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "ListBoxModel.cs",
               "DocumentMoniker": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\Models\\ListBoxModel.cs",
               "RelativeDocumentMoniker": "Models\\ListBoxModel.cs",
@@ -164,12 +210,48 @@
               "RelativeToolTip": "Models\\ListBoxModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T05:02:43.681Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-15T05:02:43.681Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T08:41:04.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MyListBoxTemplateSelector.cs",
+              "DocumentMoniker": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\Template\\MyListBoxTemplateSelector.cs",
+              "RelativeDocumentMoniker": "Template\\MyListBoxTemplateSelector.cs",
+              "ToolTip": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\Template\\MyListBoxTemplateSelector.cs",
+              "RelativeToolTip": "Template\\MyListBoxTemplateSelector.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T04:59:59.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ItemControlPropertyTemplateSelector.cs",
+              "DocumentMoniker": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\Template\\ItemControlPropertyTemplateSelector.cs",
+              "RelativeDocumentMoniker": "Template\\ItemControlPropertyTemplateSelector.cs",
+              "ToolTip": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\Template\\ItemControlPropertyTemplateSelector.cs",
+              "RelativeToolTip": "Template\\ItemControlPropertyTemplateSelector.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T17:39:10.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "ItemControlModel.cs",
               "DocumentMoniker": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\Models\\ItemControlModel.cs",
               "RelativeDocumentMoniker": "Models\\ItemControlModel.cs",
@@ -177,24 +259,22 @@
               "RelativeToolTip": "Models\\ItemControlModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T17:32:20.63Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-14T17:32:20.63Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "Login.xaml",
               "DocumentMoniker": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\Views\\Login.xaml",
               "RelativeDocumentMoniker": "Views\\Login.xaml",
               "ToolTip": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\Views\\Login.xaml",
               "RelativeToolTip": "Views\\Login.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-30T07:19:34.036Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T07:19:34.036Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
@@ -206,7 +286,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\Views\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Views\\MainWindow.xaml",
@@ -217,7 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "Logout.xaml",
               "DocumentMoniker": "D:\\.net-wpf-c#\\SELF-KBM-DESIGN\\Views\\Logout.xaml",
               "RelativeDocumentMoniker": "Views\\Logout.xaml",

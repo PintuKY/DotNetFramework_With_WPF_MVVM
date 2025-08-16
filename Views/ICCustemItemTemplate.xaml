@@ -6,9 +6,15 @@
         xmlns:local="clr-namespace:SELF_KBM_DESIGN.Views"
         xmlns:local1="clr-namespace:SELF_KBM_DESIGN.Template"
         xmlns:local2="clr-namespace:SELF_KBM_DESIGN.Template"
+        xmlns:vm="clr-namespace:SELF_KBM_DESIGN.ViewModels"
         mc:Ignorable="d"
         Title="ICCustemItemTemplate" Height="450" Width="800">
+
+
     <Window.Resources>
+        <vm:ItemControlViewModel x:Key="ItemControlVM"/>
+        <vm:ICMDPersonViewModel x:Key="PersonVM"/>
+        <vm:TriggerViewModel x:Key="triggrtvm"/>
         <!-- Template for Text Property -->
         <DataTemplate x:Key="TextTemplate">
             <Grid>
@@ -128,19 +134,105 @@
             <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
                 <Grid IsSharedSizeScope="True" HorizontalAlignment="Stretch">
                     <ItemsControl x:Name="SettingsItemsPanel"
+                                  DataContext="{StaticResource ItemControlVM}"
                           ItemsSource="{Binding ItemsTemplateSourceDataList, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                           ItemTemplateSelector="{StaticResource SettingTemplateSelector}">
 
                     </ItemsControl>
-                </Grid>
-
+                </Grid>              
             </ScrollViewer>
         </Border>
         <Border Grid.Column="1" BorderBrush="AliceBlue" BorderThickness="5" CornerRadius="10" Margin="10" Background="#FDFDFDFD">
-            <ListBox Name="MyListBox"
-            ItemTemplateSelector="{StaticResource CustomTemplateSelector}"
-            Background="WhiteSmoke"
-            BorderThickness="0"/>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <ListBox Name="MyListBox"
+                            ItemTemplateSelector="{StaticResource CustomTemplateSelector}"
+                            Background="WhiteSmoke"
+                            BorderThickness="0"/>
+                </Grid>
+                <!--ICommand Start here-->
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100"></ColumnDefinition>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"></RowDefinition>
+                                <RowDefinition Height="auto"></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Label x:Name="lblName" Content="Name" Grid.Row="0" Grid.Column="0" VerticalAlignment="Top"></Label>
+                            <TextBox x:Name="txtName" Grid.Row="0" Grid.Column="1" VerticalAlignment="Top" Text="{Binding ElementName=lstPerson, Path=SelectedItem.Name}"></TextBox>
+                            <Label x:Name="lblAddress" Content="Address" Grid.Row="1" Grid.Column="0" VerticalAlignment="Top"></Label>
+                            <TextBox x:Name="txtAddress" Grid.Row="1" Grid.Column="1" VerticalAlignment="Top" Text="{Binding ElementName=lstPerson, Path=SelectedItem.Address}"></TextBox>
+                        </Grid>
+                        <Button x:Name="btnUpdate" Width="100" Height="20" HorizontalAlignment="Center" Grid.Row="1" Content="Update" Command="{Binding Path=UpdateCommand}" CommandParameter="{Binding ElementName=lstPerson, Path=SelectedItem.Address}"></Button>
+                        <ListView x:Name="lstPerson" DataContext="{StaticResource PersonVM}" Grid.Row="2" ItemsSource="{Binding Persons}">
+                            <ListView.View>
+                                <GridView>
+                                    <GridViewColumn Header="Name" DisplayMemberBinding="{Binding Name}" />
+                                    <GridViewColumn Header="Address" Width="200" DisplayMemberBinding="{Binding Address}"/>
+                                </GridView>
+                            </ListView.View>
+                        </ListView>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="2">
+                    <Button Content="DataTriggerss" Height="30" Width="120"
+                            DataContext="{StaticResource triggrtvm}">
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="White"/>
+
+                                <Style.Triggers>
+                                    <!-- IsActive = False -->
+                                    <DataTrigger Binding="{Binding IsActive}" Value="true">
+                                        <Setter Property="Background" Value="Red"/>
+                                        <Setter Property="Foreground" Value="White"/>
+                                    </DataTrigger>
+
+                                    <!-- IsActive = True + MouseOver -->
+                                    <MultiDataTrigger>
+                                        <MultiDataTrigger.Conditions>
+                                            <Condition Binding="{Binding IsActive}" Value="True"/>
+                                            <Condition Binding="{Binding RelativeSource={RelativeSource Self}, Path=IsMouseOver}" Value="True"/>
+                                        </MultiDataTrigger.Conditions>
+                                        <Setter Property="Cursor" Value="Hand"/>
+                                        <Setter Property="Background" Value="Black"/>
+                                        <!-- works now -->
+                                        <Setter Property="Foreground" Value="White"/>
+                                    </MultiDataTrigger>
+
+                                    <!-- IsActive = False + MouseOver -->
+                                    <MultiDataTrigger>
+                                        <MultiDataTrigger.Conditions>
+                                            <Condition Binding="{Binding IsActive}" Value="False"/>
+                                            <Condition Binding="{Binding RelativeSource={RelativeSource Self}, Path=IsMouseOver}" Value="True"/>
+                                        </MultiDataTrigger.Conditions>
+                                        <Setter Property="Cursor" Value="Hand"/>
+                                        <Setter Property="Background" Value="Orange"/>
+                                    </MultiDataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                    </Button>
+
+                </Grid>
+            </Grid>
         </Border>
     </Grid>
    
